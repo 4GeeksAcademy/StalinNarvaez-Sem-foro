@@ -11,6 +11,10 @@ const Semaforo = ()=>{
         if (colorLuzRoja== "#781f19"){
             setLuzBordeRoja("red");
             setResplandorLuzRoja("0 0 40px #FFFF00");
+            setLuzBordeNaranja("#cc7156");
+            setResplandorLuzNaranja("");
+            setLuzBordeVerde("#8ea282");
+            setResplandorLuzVerde("");
         } else{
             setLuzBordeRoja("#781f19");
             setResplandorLuzRoja("");
@@ -21,6 +25,10 @@ const Semaforo = ()=>{
         if (colorLuzNaranja== "#cc7156"){
             setLuzBordeNaranja("orange");
             setResplandorLuzNaranja("0 0 40px #FFFF00");
+            setLuzBordeVerde("#8ea282");
+            setResplandorLuzVerde("");
+            setLuzBordeRoja("#781f19");
+            setResplandorLuzRoja("");
         } else{
             setLuzBordeNaranja("#cc7156");
             setResplandorLuzNaranja("");
@@ -31,6 +39,10 @@ const Semaforo = ()=>{
         if (colorLuzVerde== "#8ea282"){
             setLuzBordeVerde("green");
             setResplandorLuzVerde("0 0 40px #FFFF00");
+            setLuzBordeRoja("#781f19");
+            setResplandorLuzRoja("");
+            setLuzBordeNaranja("#cc7156");
+            setResplandorLuzNaranja("");
         } else{
             setLuzBordeVerde("#8ea282");
             setResplandorLuzVerde("");
